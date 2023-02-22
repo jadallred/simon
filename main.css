@@ -24,4 +24,19 @@ menu .nav-item {
   padding: 0 0.3em;
 }
 
+footer a {
+  float: right;
+}
+
+#count {
+  color: rgb(246, 239, 258);
+}
+
+.player-name {
+  color: rgb(118, 190, 210);
+}
+
+.game {
+  background: rgb(0,0,0);
+  border-radius: 50%;
 
