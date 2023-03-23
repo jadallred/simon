@@ -8,7 +8,7 @@ if (!userName) {
   throw Error('Database not configured. Set environment variables');
 }
 
-const url = `mongodb+srv://${userName}:${password}@${hostname}`;
+const url = `mongodb+srv://jadeweb260:<password>@cluster0.x47kzwl.mongodb.net/`;
 
 const client = new MongoClient(url);
 const scoreCollection = client.db('simon').collection('score');
